@@ -2,20 +2,20 @@ import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import "./style.css";
 import petMePic from "./images/petMePic300.png";
 import notetakerPic from "./images/notetakerPic.png";
 import bcCR from "./images/bcCR300.png";
-import pWordGen from "./images/pWordGen.png"
+import pWordGen from "./images/pWordGen.png";
 import weatherApp from "./images/weatherApp.png";
-import dayPlanner from "./images/dayPlanner.png"
+import dayPlanner from "./images/dayPlanner.png";
+import "./style.css"; 
 
 function Projects() {
     return (
         <div>
         <Container style={{ marginTop: 30 }}>
           <Row>
-            <Col size="md-12">
+            <Col size="md-4">
             
             <div className="card cardStyle" style={{width: 300}}>
             <img src={petMePic} className="card-img-top" alt="Screenshot of PetMe application" width="300" />
@@ -28,6 +28,8 @@ function Projects() {
                     GitHub</a>
             </div>
             </div>
+            </Col>
+            <Col size="md-4">
 
             <div className="card cardStyle" style={{width: 300}}>
             <img src={notetakerPic} className="card-img-top" alt="Screenshot of Note Taker Application" width="300" />
@@ -40,7 +42,8 @@ function Projects() {
                     GitHub</a>
             </div>
             </div>
-
+            </Col>
+            <Col size="md-4">
             <div className="card cardStyle" style={{width: 300}}>
             <img src={bcCR} className="card-img-top" alt="Screenshot of CryptoCurrency Exchange" width="300" />
             <div className="card-body">
@@ -52,7 +55,10 @@ function Projects() {
                     GitHub</a>
             </div>
             </div>
-
+            </Col>
+          </Row>
+          <Row>
+            <Col size="md-4">
             <div className="card cardStyle" style={{width: 300}}>
             <img src={pWordGen} className="card-img-top" alt="Screenshot of Password Generator" width="300" />
             <div className="card-body">
@@ -64,7 +70,8 @@ function Projects() {
                     GitHub</a>
             </div>
             </div>
-
+            </Col>
+            <Col size="md-4">
             <div className="card cardStyle" style={{width: 300}}>
             <img src={weatherApp} className="card-img-top" alt="Screenshot of a weather app showing weather for various cities" width="300" />
             <div className="card-body">
@@ -76,7 +83,8 @@ function Projects() {
                     GitHub</a>
             </div>
             </div>
-
+            </Col>
+            <Col size="md-4">
             <div className="card cardStyle" style={{width: 300}}>
             <img src={dayPlanner} className="card-img-top" alt="Screenshot of a day planner" width="300" />
             <div className="card-body">

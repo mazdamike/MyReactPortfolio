@@ -3,16 +3,14 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 
-function Resume() {
+function Contact() {
     return (
         <div>
         <Container style={{ marginTop: 30 }}>
           <Row>
             <Col size="md-12">
-            <h1>Resume</h1>
-            <p>updated July 25 2020</p>
-            <h2><i class="far fa-file-pdf">&nbsp;</i><a href="https://drive.google.com/file/d/1X_N5xYbgpiNsrwyncAniUk-_bfDfUcgW/view?usp=sharing"
-            target="_blank">Michael W. Powell</a></h2>
+            <h1>Contact</h1>
+            
             </Col>
           </Row>
           
@@ -21,4 +19,4 @@ function Resume() {
     );
   }
   
-  export default Resume;
+  export default Contact;
