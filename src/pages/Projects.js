@@ -2,55 +2,94 @@ import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import "./style.css";
+import petMePic from "./images/petMePic300.png";
+import notetakerPic from "./images/notetakerPic.png";
+import bcCR from "./images/bcCR300.png";
+import pWordGen from "./images/pWordGen.png"
+import weatherApp from "./images/weatherApp.png";
+import dayPlanner from "./images/dayPlanner.png"
 
 function Projects() {
     return (
-      <div>
+        <div>
         <Container style={{ marginTop: 30 }}>
           <Row>
             <Col size="md-12">
-              <h1>My Projects</h1>
+            <div className="card cardStyle" style={{width: 300}}>
+            <img src={petMePic} className="card-img-top" alt="Screenshot of PetMe application" width="300" />
+            <div className="card-body">
+                <h5 className="card-title">PetMe</h5>
+                <p className="card-text">An application for listing, searching for, and adopting pets.</p>
+                <a href="https://limitless-inlet-32977.herokuapp.com/" target="_blank"
+                    className="btn btn-secondary">Launch</a>
+                <a href="https://github.com/Miteshmodi003/PetMe" target="_blank" style={{marginLeft: 10}}>Go to
+                    GitHub</a>
+            </div>
+            </div>
+
+            <div className="card cardStyle" style={{width: 300}}>
+            <img src={notetakerPic} className="card-img-top" alt="Screenshot of Note Taker Application" width="300" />
+            <div className="card-body">
+                <h5 className="card-title">Note Taker</h5>
+                <p className="card-text">An application that can be used to write, save, and delete notes.</p>
+                <a href="https://dry-anchorage-78087.herokuapp.com/" target="_blank"
+                    className="btn btn-secondary">Launch</a>
+                <a href="https://github.com/mazdamike/Note-Taker" target="_blank" style={{marginLeft: 10}}>Go to
+                    GitHub</a>
+            </div>
+            </div>
+
+            <div className="card cardStyle" style={{width: 300}}>
+            <img src={bcCR} className="card-img-top" alt="Screenshot of CryptoCurrency Exchange" width="300" />
+            <div className="card-body">
+                <h5 className="card-title">Cryptocurrency Exchange</h5>
+                <p className="card-text">Displays the value of CryptoCurrencies.</p>
+                <a href="https://mazdamike.github.io/Cryptocurrency-Exchange-and-News-Tracker/" target="_blank"
+                    className="btn btn-secondary">Launch</a>
+                <a href="https://github.com/mazdamike/Cryptocurrency-Exchange-and-News-Tracker" target="_blank" style={{marginLeft: 10}}>Go to
+                    GitHub</a>
+            </div>
+            </div>
+
+            <div className="card cardStyle" style={{width: 300}}>
+            <img src={pWordGen} className="card-img-top" alt="Screenshot of Password Generator" width="300" />
+            <div className="card-body">
+                <h5 className="card-title">Password Generator</h5>
+                <p className="card-text">Randomly generates and displays a password</p>
+                <a href="https://mazdamike.github.io/week3PasswordGenerator/" target="_blank"
+                    className="btn btn-secondary">Launch</a>
+                <a href="https://github.com/mazdamike/week3PasswordGenerator" target="_blank" style={{marginLeft: 10}}>Go to
+                    GitHub</a>
+            </div>
+            </div>
+
+            <div className="card cardStyle" style={{width: 300}}>
+            <img src={weatherApp} className="card-img-top" alt="Screenshot of a weather app showing weather for various cities" width="300" />
+            <div className="card-body">
+                <h5 className="card-title">Weather Dashboard</h5>
+                <p className="card-text">Retrieves the weather for cities entered by the user</p>
+                <a href="https://mazdamike.github.io/week6WeatherDashboard/" target="_blank"
+                    className="btn btn-secondary">Launch</a>
+                <a href="https://github.com/mazdamike/week6WeatherDashboard" target="_blank" style={{marginLeft: 10}}>Go to
+                    GitHub</a>
+            </div>
+            </div>
+
+            <div className="card cardStyle" style={{width: 300}}>
+            <img src={dayPlanner} className="card-img-top" alt="Screenshot of a day planner" width="300" />
+            <div className="card-body">
+                <h5 className="card-title">Day Planner</h5>
+                <p className="card-text">Allows the user to enter appointments into the planner.</p>
+                <a href="https://mazdamike.github.io/week5DayPlanner/" target="_blank"
+                    className="btn btn-secondary">Launch</a>
+                <a href="https://github.com/mazdamike/week5DayPlanner" target="_blank" style={{marginLeft: 10}}>Go to
+                    GitHub</a>
+            </div>
+            </div>
             </Col>
           </Row>
-          <Row>
-            <Col size="md-12">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet diam tortor, id
-                consequat mauris ullamcorper eu. Orci varius natoque penatibus et magnis dis
-                parturient montes, nascetur ridiculus mus. Pellentesque et dui id justo finibus
-                sollicitudin at et metus. Ut feugiat tellus nec metus commodo, sed suscipit nisi
-                gravida. Duis eget vestibulum quam, ut porttitor sem. Donec sagittis mi sollicitudin
-                turpis semper, et interdum risus lobortis. Vestibulum suscipit nunc non egestas
-                tristique. Proin hendrerit efficitur malesuada. Mauris lorem urna, sodales accumsan
-                quam non, tristique tempor erat. Nullam non sem facilisis, tempus tortor sit amet,
-                volutpat nisl. Ut et turpis non nunc maximus mollis a vitae tortor. Pellentesque
-                mattis risus ac quam laoreet cursus. Praesent suscipit orci neque, vestibulum
-                tincidunt augue tincidunt non. Duis consequat mattis tortor vitae mattis.
-              </p>
-              <p>
-                Phasellus at rutrum nisl. Praesent sed massa ut ipsum bibendum porttitor. Sed
-                malesuada molestie velit ac viverra. Quisque a ullamcorper purus. Curabitur luctus mi
-                ac mi hendrerit semper. Nulla tincidunt accumsan lobortis. Mauris convallis sapien non
-                nibh porta accumsan. Nunc volutpat tempus porttitor. Nunc congue dictum egestas.
-                Aliquam blandit mi eu urna scelerisque, vitae volutpat ligula ultricies. Maecenas vel
-                porta augue. Fusce mauris ex, dignissim et lacinia ut, tempus eget nibh.
-              </p>
-              <p>
-                Etiam ut massa efficitur, gravida sapien non, condimentum sapien. Suspendisse massa
-                tortor, facilisis in neque sit amet, scelerisque elementum tortor. Nullam eget nibh
-                sit amet odio lobortis ullamcorper. Nulla bibendum magna nec sem pulvinar lobortis.
-                Mauris et imperdiet urna, vitae lobortis dui. Nunc elementum elit mi, non mattis enim
-                congue at. Proin mi lectus, ullamcorper id hendrerit eu, ultricies vitae lacus. Nunc
-                vehicula, erat eget laoreet condimentum, felis ante malesuada leo, nec efficitur diam
-                nisi eget nisi. Cras arcu lacus, tristique in bibendum vitae, elementum eget lorem.
-                Maecenas vestibulum volutpat orci eu pharetra. Praesent vel blandit ante, nec faucibus
-                libero. Sed ultrices lorem ex, eu facilisis libero convallis ac. Vivamus id dapibus
-                eros. Nullam tempor sem rhoncus porta semper. Proin bibendum vulputate nisl, fringilla
-                interdum elit pulvinar eu. Quisque vitae quam dapibus, vestibulum mauris quis, laoreet
-                massa.
-              </p>
-            </Col>
-          </Row>
+          
         </Container>
       </div>
     );
