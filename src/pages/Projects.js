@@ -16,6 +16,7 @@ function Projects() {
         <Container style={{ marginTop: 30 }}>
           <Row>
             <Col size="md-12">
+            
             <div className="card cardStyle" style={{width: 300}}>
             <img src={petMePic} className="card-img-top" alt="Screenshot of PetMe application" width="300" />
             <div className="card-body">
@@ -87,6 +88,7 @@ function Projects() {
                     GitHub</a>
             </div>
             </div>
+            
             </Col>
           </Row>
           
