@@ -11,6 +11,10 @@
   margin-top: 30px;
 }
 
+.textMain {
+  font-family: 'Yantramanav', sans-serif;
+}
+
 .card .fa-spinner {
   font-size: 180px;
   position: absolute;
@@ -21,4 +25,5 @@
 #grandCanyon {
   float: right;
   box-shadow: 6px 6px 7px grey;
+  margin: 15px;
 }

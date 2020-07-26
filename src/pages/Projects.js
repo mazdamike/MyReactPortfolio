@@ -8,12 +8,13 @@ import bcCR from "./images/bcCR300.png";
 import pWordGen from "./images/pWordGen.png";
 import weatherApp from "./images/weatherApp.png";
 import dayPlanner from "./images/dayPlanner.png";
-import "./style.css"; 
+import "./style.css";
 
 function Projects() {
     return (
-        <div>
+        <div className="textMain">
         <Container style={{ marginTop: 30 }}>
+        <h1>Projects</h1>
           <Row>
             <Col size="md-4">
             

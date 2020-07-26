@@ -1,4 +1,4 @@
-import Background from "./sunsetGC.JPG";
+import Background from "./sunsetGCop.jpg";
 import React from "react";
 import "./style.css";
 
