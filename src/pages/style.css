@@ -17,3 +17,8 @@
   left: 25%;
   top: 25%;
 }
+
+#grandCanyon {
+  float: right;
+  box-shadow: 6px 6px 7px grey;
+}
