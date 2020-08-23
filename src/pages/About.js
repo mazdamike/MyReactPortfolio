@@ -25,7 +25,7 @@ function About() {
               Hello and thanks for checking out my portfolio. 
             </p>
             <p>
-            I'm a Web developer and U.S. Navy veteran with extensive corporate, small business, and military management experience and education in web design and digital content development. I'm presently studying Full Stack Web Development at Georgia Tech Professional Education and have previously earned an Associate Degree in Web Design from Gwinnett Technical College. An accomplished teammate skilled in web technologies including HTML, CSS, JavaScript, and Node.js, and also proficient in Adobe Creative Suite. My strong work ethic and commitment to personal and professional integrity make me the trusted choice for any job.
+            I'm a Website Content Specialist / Developer and U.S. Navy veteran with extensive corporate, small business, and military management experience and education in web design and digital content development. I have earned a certificate in Full Stack Web Development from Georgia Tech Professional Education and an Associate Degree in Web Design from Gwinnett Technical College. With an eye for detail I'm an accomplished teammate skilled in web technologies including HTML, CSS, JavaScript, and Node.js, and also proficient in Adobe Creative Suite. My strong work ethic and commitment to personal and professional integrity make me the trusted choice for any job.
             </p>
             <p>
               In my off time you may find me reading a book, taking a long walk or hike, playing classical guitar, or cooking up a storm in the kitchen. I currently reside in Peachtree Corners, Georgia.
